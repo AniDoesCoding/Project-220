@@ -4,7 +4,9 @@
   "description": "A Version Control Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel backend/server.js -d backend/dist",
+    "start": "npm run build && node backend/dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "dependencies": {
     "express": "^5.1.0",
     "react": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3"
   }
 }
