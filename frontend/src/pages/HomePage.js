@@ -1,9 +1,14 @@
 import React from 'react';
+import Banner from '../components/Banner'
+import ActivityFeed from '../components/ActivityFeed'
 
 const HomePage = () => (
-    <main>
-        <h1>This is Home</h1>
-    </main>
+    <>
+        <Banner />
+        <main>
+            <ActivityFeed />
+        </main>
+    </>
 );
 
 export default HomePage;
