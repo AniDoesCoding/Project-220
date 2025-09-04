@@ -4,7 +4,6 @@ import SearchBar from './SearchBar';
 const Banner = () => {
     <header>
         <SearchBar />
-        <Link />
     </header>
 }
 
