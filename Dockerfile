@@ -11,6 +11,6 @@ COPY . .
 RUN npm run build
 
 # Expose ports
-EXPOSE 3000 5000
+EXPOSE 8080
 
-CMD ["npm", "run", "start:backend"]  // Run backend, serve dist for frontend
+CMD ["npm", "start"]

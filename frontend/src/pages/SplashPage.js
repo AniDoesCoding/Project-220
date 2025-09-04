@@ -1,7 +1,9 @@
 import React from 'react';
 import SplashActions from '../components/SplashActions';
+import SignupForm from '../components/SignupForm';
+import LoginForm from '../components/LoginForm';
 
-const SplashPage = () => {
+const SplashPage = () => (
     <main>
         <div>
             <img />
@@ -9,9 +11,11 @@ const SplashPage = () => {
         <div>
             <img />
             <SplashActions />
+            <SignupForm />
+            <LoginForm />
         </div>
     </main>
-}
+)
 
 export default SplashPage;
 

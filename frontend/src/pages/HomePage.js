@@ -2,9 +2,13 @@ import React from 'react';
 import Banner from '../components/Banner'
 import ActivityFeed from '../components/ActivityFeed'
 
+const activeUser = {
+    userName: 'User1', userID: 1
+}
+
 const HomePage = () => (
     <>
-        <Banner />
+        <Banner current={activeUser}/>
         <main>
             <h1>Activity</h1>
             <ActivityFeed />

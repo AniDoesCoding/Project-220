@@ -5,6 +5,7 @@ import ActivityFeed from './ActivityFeed';
 import ProjectView from './ProjectView';
 import ProjectCreate from './ProjectCreate';
 import ProjectEdit from './ProjectEdit';
+import ProjectCheckin from './ProjectCheckin';
 
 const ProjectBody = () => {
     const params = useParams();
@@ -14,6 +15,8 @@ const ProjectBody = () => {
             <DiscussionFeed /> <br />
             <ActivityFeed /> <br />
             <ProjectCreate /> <br />
+            <ProjectEdit /> <br />
+            <ProjectCheckin /> <br />
         </>
     ) 
 }

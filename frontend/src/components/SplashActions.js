@@ -3,11 +3,14 @@ import LoginForm from './LoginForm';
 import SignupForm from './SignupForm';
 
 const SplashActions = () => {
-    <>
-        <button />
-        <button />
-        <a></a>
-    </>
+    return(
+        <>
+            <button>Login</button> <br />
+            <button>Sign Up</button> <br />
+            <a>Learn More</a>
+        </>
+    )
+    
 }
 
 export default SplashActions;
