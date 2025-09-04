@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner'
-import ActivityFeed from '../components/activityfeed'
+import ActivityFeed from '../components/ActivityFeed'
 
 const HomePage = () => (
     <>
