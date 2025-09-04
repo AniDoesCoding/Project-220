@@ -1,10 +1,11 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 
-const Banner = () => {
+const Banner = (current) => {
     return(
         <header>
             <SearchBar />
+            <p>{current.userName}</p>
         </header>
     )
 }

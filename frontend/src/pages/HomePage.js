@@ -6,7 +6,7 @@ const HomePage = () => (
     <>
         <Banner />
         <main>
-            <h1>This Is The Bane Of My Existence</h1>
+            <h1>Activity</h1>
             <ActivityFeed />
         </main>
     </>

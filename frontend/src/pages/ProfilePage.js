@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import UserCard from '../components/UserCard'
 import ProjectList from '../components/ProjectList'
 
-const HomePage = () => (
+const ProfilePage = () => (
     <>
         <Banner />
         <main>
@@ -13,4 +13,4 @@ const HomePage = () => (
     </>
 );
 
-export default HomePage;
+export default ProfilePage;

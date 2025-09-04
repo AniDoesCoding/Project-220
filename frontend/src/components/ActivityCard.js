@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ActivityCard = () => {
+const ActivityCard = ({ action }) => {
     return(
         <li className="acCard">
-            Person did X at Y:YY
+            {action.user} - {action.task} at {action.time}
         </li>
     )
     
