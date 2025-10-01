@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Checkout",
+        "project": "TheFirstProject",
+        "user": "SomeGuy",
+        "date": "2025/10/01",
+        "time": "14:03",
+        "message": "I will be right back"
+    },
+    {
+        "type": "Checkin",
+        "project": "TheFirstProject",
+        "user": "SomeGuy",
+        "date": "2025/10/01",
+        "time": "15:32",
+        "message": "I have returned"
+    },
+    {
+        "type": "Create",
+        "project": "TestProject",
+        "user": "testAccount",
+        "date": "2025/10/01",
+        "time": "17:08",
+        "message": "New Example"
+    },
+    {
+        "type": "Delete",
+        "project": "ThatOtherGuy's fancy repo",
+        "user": "ThatOtherGuy",
+        "date": "2025/10/01",
+        "time": "19:23",
+        "message": "Turns out the repo was not so fancy after all"
+    },
+    {
+        "type": "Checkout",
+        "project": "I Do Not Think, Therefore I Do Not Am",
+        "user": "SomeGuy",
+        "date": "2025/10/01",
+        "time": "21:56",
+        "message": "Need to make some changes, sorry"
+    }
+]

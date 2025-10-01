@@ -1,0 +1,65 @@
+[
+    {
+        "name": "SomeGuy",
+        "password": "LogMeInPlease",
+        "email": "someguy@hotmail.com",
+        "projects": [
+            {
+                "name": "TheFirstProject",
+                "role": "Owner"
+            },
+            {
+                "name": "I Do Not Think, Therefore I Do Not Am",
+                "role": "Collaborator"
+            }
+        ],
+        "friends": [
+            {
+                "name": "ThatOtherGuy",
+                "id": "tempID"
+            }
+        ]
+    }, 
+    {
+        "name": "ThatOtherGuy",
+        "password": "HeL0vesTheAvocado",
+        "email": "username.password@gmail.com",
+        "projects": [
+            {
+                "name": "TheFirstProject",
+                "role": "Collaborator"
+            },
+            {
+                "name": "I Do Not Think, Therefore I Do Not Am",
+                "role": "Owner"
+            }
+        ],
+        "friends": [
+            {
+                "name": "SomeGuy",
+                "id": "tempID"
+            }
+        ]
+    },
+    {
+        "name": "testAccount",
+        "password": "test1234",
+        "email": "test@test.com",
+        "projects": [
+            {
+                "name": "TestProject",
+                "role": "Owner"
+            },
+            {
+                "name": "TheFirstProject",
+                "role": "Collaborator"
+            }
+        ],
+        "friends": [
+            {
+                "name": "SomeGuy",
+                "id": "tempID"
+            }
+        ]
+    }
+]

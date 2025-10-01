@@ -1,0 +1,36 @@
+[
+    {
+        "name": "TheFirstProject",
+        "owner": "SomeGuy",
+        "collaborators": [
+            {
+                "name": "ThatOtherGuy"
+            },
+            {
+                "name": "testAccount"
+            }
+        ],
+        "status": "Active",
+        "lastUser": "SomeGuy"
+    },
+    {
+        "name": "I Do Not Think, Therefore I Do Not Am",
+        "owner": "ThatOtherGuy",
+        "collaborators": [
+            {
+                "name": "SomeGuy"
+            }
+        ],
+        "status": "Inactive",
+        "lastUser": "SomeGuy"
+    },
+    {
+        "name": "TestProject",
+        "owner": "testAccount",
+        "collaborators": [
+            
+        ],
+        "status": "Active",
+        "lastUser": "testAccount"
+    }
+]
