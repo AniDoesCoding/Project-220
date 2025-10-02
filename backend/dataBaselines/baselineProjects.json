@@ -10,6 +10,14 @@
                 "name": "testAccount"
             }
         ],
+        "tags": [
+            {
+                "value": "React"
+            },
+            {
+                "value": "JavaScript"
+            }
+        ],
         "status": "Active",
         "lastUser": "SomeGuy"
     },
@@ -21,6 +29,11 @@
                 "name": "SomeGuy"
             }
         ],
+        "tags": [
+            {
+                "value": "C++"
+            }
+        ],
         "status": "Inactive",
         "lastUser": "SomeGuy"
     },
@@ -29,6 +42,11 @@
         "owner": "testAccount",
         "collaborators": [
             
+        ],
+        "tags": [
+            {
+                "value": "TypeScript"
+            }
         ],
         "status": "Active",
         "lastUser": "testAccount"

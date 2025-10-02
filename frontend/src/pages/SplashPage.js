@@ -5,15 +5,16 @@ import LoginForm from '../components/LoginForm';
 
 const SplashPage = () => (
     <main>
-        <div>
-            <img />
+        <div className='splashBody'>
+            <div>
+                <img className='splashCover' src="splash.png"/>
+            </div>
+            <div className='splashAct'>
+                <img />
+                <SplashActions />
+            </div>
         </div>
-        <div>
-            <img />
-            <SplashActions />
-            <SignupForm />
-            <LoginForm />
-        </div>
+        
     </main>
 )
 

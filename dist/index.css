@@ -3,8 +3,8 @@
 /*Site-wide*/
 
 html {
-    background-color: black;
-    color: white;
+    background-color: #0A0908;
+    color: #F2F4F3;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: rgb(51, 2, 2);
+    background-color: #49111C;
     display: grid;
     grid-template-columns: 80% 20%;
 }
@@ -28,7 +28,7 @@ header h1 a {
 }
 
 header h1 a:hover, .ownLink:hover {
-    background-color: rgb(95, 15, 15);
+    background-color: rgb(116, 37, 37);
     border: solid 1px white;
     border-radius: 20px;
 }
@@ -90,17 +90,17 @@ header h1 a:hover, .ownLink:hover {
     padding: 24px;
     border-radius: 60px;
     font-size: 32px;
-    background-color: rgb(95, 15, 15);
+    background-color: rgb(116, 37, 37);
     border: none;
     color: white;
 }
 
 .profileHead button:hover {
-    background-color: rgb(112, 25, 25);
+    background-color: rgb(161, 57, 57);
 }
 
 .profileBonus {
-    color: grey;
+    color: #A9927D;
     font-size: 24px;
 }
 
@@ -130,13 +130,13 @@ header h1 a:hover, .ownLink:hover {
     padding: 24px;
     border-radius: 60px;
     font-size: 20px;
-    background-color: rgb(95, 15, 15);
+    background-color: rgb(116, 37, 37);
     border: none;
     color: white;
 }
 
 .projView button:hover {
-    background-color: rgb(112, 25, 25);
+    background-color: rgb(161, 57, 57);
 }
 
 .projView {
@@ -154,11 +154,50 @@ header h1 a:hover, .ownLink:hover {
 }
 
 .projView h3 {
-    color: grey;
+    color: #A9927D;
     font-size: 20px;
 }
 
 .projView p {
-    color: grey;
+    color: #5E503F;
     font-size: 16px;
+}
+
+.splashCover {
+    max-height: 100vh;
+}
+
+.splashBody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.splashAct {
+    display: grid;
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+    align-self: center;
+}
+
+.splashAct button {
+    width: 300px;
+    height: 80px;
+    align-self: center;
+    border-radius: 60px;
+    font-size: 32px;
+    background-color: rgb(116, 37, 37);
+    border: none;
+    color: white;
+}
+
+.splashAct button:hover {
+    background-color: rgb(161, 57, 57);
+}
+
+.splashAct a {
+    color: white;
+    text-decoration: none;
 }

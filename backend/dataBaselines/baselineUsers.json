@@ -3,6 +3,7 @@
         "name": "SomeGuy",
         "password": "LogMeInPlease",
         "email": "someguy@hotmail.com",
+        "userID": 10001,
         "projects": [
             {
                 "name": "TheFirstProject",
@@ -24,6 +25,7 @@
         "name": "ThatOtherGuy",
         "password": "HeL0vesTheAvocado",
         "email": "username.password@gmail.com",
+        "userID": 10002,
         "projects": [
             {
                 "name": "TheFirstProject",
@@ -45,6 +47,7 @@
         "name": "testAccount",
         "password": "test1234",
         "email": "test@test.com",
+        "userID": 10003,
         "projects": [
             {
                 "name": "TestProject",
