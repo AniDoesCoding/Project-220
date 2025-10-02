@@ -6,4 +6,4 @@ This will, over the course of a semester, hopefully turn into a proper site for 
 ## Commands for using the site on Docker:
 
 ### docker build -t u24808840 .
-### docker run --name u24808840 -p 8080:3000 u24808840
+### docker run --name u24808840 -p 3000:3000 u24808840

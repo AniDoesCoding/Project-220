@@ -1,6 +1,7 @@
 [
     {
         "name": "TheFirstProject",
+        "projID": 100001,
         "owner": "SomeGuy",
         "collaborators": [
             {
@@ -23,6 +24,7 @@
     },
     {
         "name": "I Do Not Think, Therefore I Do Not Am",
+        "projID": 100002,
         "owner": "ThatOtherGuy",
         "collaborators": [
             {
@@ -39,6 +41,7 @@
     },
     {
         "name": "TestProject",
+        "projID": 100003,
         "owner": "testAccount",
         "collaborators": [
             

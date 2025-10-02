@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+/*Site-wide*/
+
+html {
+    background-color: #0A0908;
+    color: #F2F4F3;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #49111C;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+header h1 a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header h1 a:hover, .ownLink:hover {
+    background-color: rgb(116, 37, 37);
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+.ownLink {
+    color: white;
+    font-size: 32px;
+    justify-self: left;
+    padding: 10px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.leftSide {
+    align-self: center;
+    justify-self: left;
+}
+
+#searchInput {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pageHead {
+    font-size: 60px;
+    margin-left: 32px;
+}
+
+.feedBody {
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.acCard, .projCard {
+    padding: 32px;
+    font-size: 32px;
+    border: solid 1px gray;
+    list-style: none;
+    margin: 20px;
+    border-radius: 20px;;
+}
+
+/*Specialised*/
+
+.profileImg {
+    max-width: 100px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.profileHead {
+    display: grid;
+    grid-template-columns: 10% 20% 10%;
+}
+
+.profileHead button {
+    margin: auto;
+    padding: 24px;
+    border-radius: 60px;
+    font-size: 32px;
+    background-color: rgb(116, 37, 37);
+    border: none;
+    color: white;
+}
+
+.profileHead button:hover {
+    background-color: rgb(161, 57, 57);
+}
+
+.profileBonus {
+    color: #A9927D;
+    font-size: 24px;
+}
+
+.profileBio {
+    font-size: 40px;
+}
+
+.profileBox {
+    margin-left: 32px;
+}
+
+.profileProj {
+    margin-left: 32px;
+}
+
+.profileProj h3 {
+    font-size: 48px;
+}
+
+.projView h1 {
+    font-size: 52px;
+}
+
+.projView button {
+    margin: 10px;
+    margin-top: 32px;
+    padding: 24px;
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: rgb(116, 37, 37);
+    border: none;
+    color: white;
+}
+
+.projView button:hover {
+    background-color: rgb(161, 57, 57);
+}
+
+.projView {
+    margin: 20px;
+}
+
+.projView a {
+    color: rgb(206, 206, 206);
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.projView h2 {
+    font-size: 32px;
+}
+
+.projView h3 {
+    color: #A9927D;
+    font-size: 20px;
+}
+
+.projView p {
+    color: #5E503F;
+    font-size: 16px;
+}
+
+.splashCover {
+    max-height: 100vh;
+}
+
+.splashBody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.splashAct {
+    display: grid;
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+    align-self: center;
+}
+
+.splashAct button {
+    width: 300px;
+    height: 80px;
+    align-self: center;
+    border-radius: 60px;
+    font-size: 32px;
+    background-color: rgb(116, 37, 37);
+    border: none;
+    color: white;
+}
+
+.splashAct button:hover {
+    background-color: rgb(161, 57, 57);
+}
+
+.splashAct a {
+    color: white;
+    text-decoration: none;
+}

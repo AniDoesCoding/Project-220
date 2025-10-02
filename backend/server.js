@@ -2,11 +2,11 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 const path = require('path');
 const app = express();
+const router = express.Router();
 const port = 3000;
 
-const url = "mongodb+srv://ProjectAdmin:JustSome1Guy@24808840.urwiwh1.mongodb.net/?retryWrites=true&w=majority&appName=24808840";
-let database;
-let client;
+const url = 'mongodb+srv://ProjectAdmin:JustSome1Guy@24808840.urwiwh1.mongodb.net/?retryWrites=true&w=majority&appName=24808840';
+let dbPromise = null;
 
 //API
 
@@ -28,18 +28,49 @@ app.post('/api/signup', (req, res) => {
   }
 });
 
+app.get('/api/users/:id', async (req, res) => {
+  try {
+    console.log("Checkpoint 1");
+    const user = await getUserByID(req.params.id);
+    if (!user) return res.status(404).json({error: `No User with ID ${req.params.id} found`});
+    res.json(user);  
+  } catch (err) {
+    res.status(500).json({ error: 'Something fucked up:' + err.message });
+  }
+})
+
 //Functions
 
 async function connectToDatabase() {
-  try {
-    client = new MongoClient(url);
-    await client.connect();
-    database = client.db("Project220");
-    console.log("Connected to database");
-  } catch (error) {
-    console.error("Error connecting to database:", error);
+  if (!dbPromise) {
+    console.log("Checkpoint 3");
+    dbPromise = new MongoClient(url);
+    await dbPromise.connect()
+      .then(client => {
+        const database = client.db('Project220');
+        console.log("Connected to database");
+        return database;
+      })
+      .catch(err => {
+        console.error('DB connection failed:', err);
+        throw err;
+      });
   }
+  return dbPromise;
 }
+
+async function getUserByID(id) {
+  console.log("Checkpoint 2");
+  const db = await connectToDatabase();
+  return await db.collection('Users').findOne({userID: id});
+}
+
+async function getProjectByID(id) {
+  const db = await connectToDatabase();
+  return await db.collection('Projects').findOne({projID: id});
+}
+
+//Final Coverage
 
 app.use((err, req, res, next) => {
   console.error('Global error:', err.stack);
