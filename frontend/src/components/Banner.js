@@ -5,9 +5,13 @@ import { Link } from 'react-router-dom';
 const Banner = (current) => {
     console.log(current)
     return(
-        <header className='bg-red-950'>
-            <SearchBar />
-            <Link to={`/profile/${current.current.userID}`}>{ current.current.userName }</Link>
+        <header>
+            <h1><Link to={`/home`}>Memento</Link></h1>
+            <div className='leftSide'>
+                <SearchBar />
+                <Link className='ownLink' to={`/profile/${current.current.userID}`}>{ current.current.userName }</Link>
+            </div>
+            
         </header>
     )
 }

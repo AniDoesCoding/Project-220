@@ -10,7 +10,7 @@ const HomePage = () => (
     <>
         <Banner current={activeUser}/>
         <main>
-            <h1>Activity</h1>
+            <h1 className='pageHead'>Activity</h1>
             <ActivityFeed />
         </main>
     </>

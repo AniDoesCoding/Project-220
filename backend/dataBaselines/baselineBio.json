@@ -1,0 +1,23 @@
+[
+    {
+        "userID": 10001,
+        "bio": "Just some guy who likes coding",
+        "email": "someguy@hotmail.com",
+        "location": "The Forest",
+        "profileImg": "https://i.redd.it/frog-pfp-follow-up-v0-ztnf12qqm0of1.jpg?width=1080&format=pjpg&auto=webp&s=97700368a6b71033c615eae29f5c776bb7ab6232"
+    },
+    {
+        "userID": 10002,
+        "bio": "Just some guy who likes coding",
+        "email": "username.password@gmail.com",
+        "location": "Atlantic Ocean",
+        "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtOx_vrqYfkR3yTppFF9vhDyrzbxs47CZ3w&s"
+    },
+    {
+        "userID": 10003,
+        "bio": "A test User",
+        "email": "test@test.com",
+        "location": "UP",
+        "profileImg": "https://i.pinimg.com/474x/93/60/5d/93605d11faff08c413b858d4940964b3.jpg"
+    }
+]

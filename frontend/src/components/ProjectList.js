@@ -8,7 +8,7 @@ const testFeed = [
 
 const ProjectList = () => {
     return(
-        <div>
+        <div className='profileProj'>
             <h3>Projects</h3>
             <div>
                 {testFeed.map((project, index) => (

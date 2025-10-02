@@ -9,7 +9,7 @@ const testFeed = [
 
 const ActivityFeed = () => {
     return(
-        <div>
+        <div className='feedBody'>
             {testFeed.map((action, index) => (
                 <ActivityCard key={index} action={action}/>
             ))}
