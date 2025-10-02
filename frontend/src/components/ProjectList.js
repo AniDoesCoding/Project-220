@@ -6,7 +6,7 @@ const testFeed = [
     { name: 'New2', status: 'Collaborator', id: 223}
 ]
 
-const ProjectList = () => {
+const ProjectList = (view) => {
     return(
         <div className='profileProj'>
             <h3>Projects</h3>
